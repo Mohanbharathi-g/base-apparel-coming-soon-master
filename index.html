@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Base appereal comming soon Page</title>
+
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+
+    <!-- fontAwesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <img src="./images/logo.svg" alt="" />
+      </div>
+    </nav>
+    <main>
+      <div class="left-container">
+        <div class="detail-container">
+          <h1 class="title">We're <br /><strong>coming soon</strong></h1>
+          <p class="para">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+        </div>
+
+        <form action="#">
+          <input
+            type="email"
+            class="input-box"
+            id="input"
+            placeholder="email address"
+          />
+          <button class="btn-submit">
+            <img src="./images/icon-arrow.svg" alt="" id="btn-submit" />
+          </button>
+          <p class="error-msg close" id="error-msg">
+            please provide a valid mail
+          </p>
+        </form>
+      </div>
+      <div class="right-container">
+        <img src="./images/hero-mobile.jpg" alt="" class="image-mobile" />
+        <img src="./images/hero-desktop.jpg" alt="" class="image-desktop" />
+      </div>
+    </main>
+
+    <!-- custom script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
